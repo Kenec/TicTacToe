@@ -19,7 +19,8 @@
             android:text="Player 1:  0"
             android:padding="10sp"
             android:layout_alignParentRight="true"
-            android:textSize="30sp"/>
+            android:textSize="30sp"
+            android:freezesText="true"/>
 
         <TextView
             android:id="@+id/player2_score"
@@ -27,7 +28,8 @@
             android:layout_height="wrap_content"
             android:text="Player 2:  0"
             android:padding="10sp"
-            android:textSize="30sp"/>
+            android:textSize="30sp"
+            android:freezesText="true"/>
 
     </RelativeLayout>
 
@@ -43,7 +45,7 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:textSize="30dp"
-            android:text="00"/>
+            android:freezesText="true"/>
 
         <Button
             android:id="@+id/gameslot_01"
@@ -51,7 +53,7 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:textSize="30dp"
-            android:text="01"/>
+            android:freezesText="true"/>
 
         <Button
             android:id="@+id/gameslot_02"
@@ -59,7 +61,7 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:textSize="30dp"
-            android:text="02"/>
+            android:freezesText="true"/>
 
         <Button
             android:id="@+id/gameslot_03"
@@ -67,7 +69,7 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:textSize="30dp"
-            android:text="03"/>
+            android:freezesText="true"/>
 
         <Button
             android:id="@+id/gameslot_04"
@@ -75,7 +77,7 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:textSize="30dp"
-            android:text="04"/>
+            android:freezesText="true"/>
 
 
     </LinearLayout>
@@ -91,7 +93,7 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:textSize="30dp"
-            android:text="10"/>
+            android:freezesText="true"/>
 
         <Button
             android:id="@+id/gameslot_11"
@@ -99,7 +101,7 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:textSize="30dp"
-            android:text="11"/>
+            android:freezesText="true"/>
 
         <Button
             android:id="@+id/gameslot_12"
@@ -107,7 +109,7 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:textSize="30dp"
-            android:text="12"/>
+            android:freezesText="true"/>
 
         <Button
             android:id="@+id/gameslot_13"
@@ -115,7 +117,7 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:textSize="30dp"
-            android:text="13"/>
+            android:freezesText="true"/>
 
         <Button
             android:id="@+id/gameslot_14"
@@ -123,7 +125,7 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:textSize="30dp"
-            android:text="14"/>
+            android:freezesText="true"/>
 
 
     </LinearLayout>
@@ -139,7 +141,7 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:textSize="30dp"
-            android:text="20"/>
+            android:freezesText="true"/>
 
         <Button
             android:id="@+id/gameslot_21"
@@ -147,7 +149,7 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:textSize="30dp"
-            android:text="21"/>
+            android:freezesText="true"/>
 
         <Button
             android:id="@+id/gameslot_22"
@@ -155,7 +157,7 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:textSize="30dp"
-            android:text="22"/>
+            android:freezesText="true"/>
 
         <Button
             android:id="@+id/gameslot_23"
@@ -163,7 +165,7 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:textSize="30dp"
-            android:text="23"/>
+            android:freezesText="true"/>
 
         <Button
             android:id="@+id/gameslot_24"
@@ -171,7 +173,7 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:textSize="30dp"
-            android:text="24"/>
+            android:freezesText="true"/>
 
     </LinearLayout>
 
@@ -187,7 +189,7 @@
         android:layout_height="match_parent"
         android:layout_weight="1"
         android:textSize="30dp"
-        android:text="30"/>
+        android:freezesText="true"/>
 
     <Button
         android:id="@+id/gameslot_31"
@@ -195,7 +197,7 @@
         android:layout_height="match_parent"
         android:layout_weight="1"
         android:textSize="30dp"
-        android:text="31"/>
+        android:freezesText="true"/>
 
     <Button
         android:id="@+id/gameslot_32"
@@ -203,7 +205,7 @@
         android:layout_height="match_parent"
         android:layout_weight="1"
         android:textSize="30dp"
-        android:text="32"/>
+        android:freezesText="true"/>
 
     <Button
         android:id="@+id/gameslot_33"
@@ -211,7 +213,7 @@
         android:layout_height="match_parent"
         android:layout_weight="1"
         android:textSize="30dp"
-        android:text="33"/>
+        android:freezesText="true"/>
 
     <Button
         android:id="@+id/gameslot_34"
@@ -219,7 +221,7 @@
         android:layout_height="match_parent"
         android:layout_weight="1"
         android:textSize="30dp"
-        android:text="34"/>
+        android:freezesText="true"/>
 
 </LinearLayout>
 
@@ -235,7 +237,7 @@
         android:layout_height="match_parent"
         android:layout_weight="1"
         android:textSize="30dp"
-        android:text="40"/>
+        android:freezesText="true"/>
 
     <Button
         android:id="@+id/gameslot_41"
@@ -243,7 +245,7 @@
         android:layout_height="match_parent"
         android:layout_weight="1"
         android:textSize="30dp"
-        android:text="41"/>
+        android:freezesText="true"/>
 
     <Button
         android:id="@+id/gameslot_42"
@@ -251,7 +253,7 @@
         android:layout_height="match_parent"
         android:layout_weight="1"
         android:textSize="30dp"
-        android:text="42"/>
+        android:freezesText="true"/>
 
     <Button
         android:id="@+id/gameslot_43"
@@ -259,7 +261,7 @@
         android:layout_height="match_parent"
         android:layout_weight="1"
         android:textSize="30dp"
-        android:text="43"/>
+        android:freezesText="true"/>
 
     <Button
         android:id="@+id/gameslot_44"
@@ -267,7 +269,7 @@
         android:layout_height="match_parent"
         android:layout_weight="1"
         android:textSize="30dp"
-        android:text="44"/>
+        android:freezesText="true"/>
 
 </LinearLayout>
 
@@ -275,6 +277,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Reset"
-        android:textStyle="bold"/>
+        android:textStyle="bold"
+        android:id="@+id/reset"/>
 
 </LinearLayout>
